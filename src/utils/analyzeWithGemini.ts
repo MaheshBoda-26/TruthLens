@@ -1,9 +1,13 @@
 import { extractVideoFrame } from './extractVideoFrame';
 
 export interface AnalysisResult {
-  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
+  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "AI EDITED" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
   confidence: number;
   risk_score: number;
+  manipulation_metrics?: {
+    full_ai_generation_likelihood: number;
+    partial_ai_edit_likelihood: number;
+  };
   summary: string;
   signals: {
     face_analysis: { score: number; findings: string[] };
@@ -35,14 +39,20 @@ export async function analyzeWithGemini(file: File, mediaType: 'image' | 'video'
 
   const SYSTEM_PROMPT = `
 You are an expert deepfake and AI-generated media forensics analyst.
-Analyze the provided image carefully for signs of manipulation or AI generation.
+Analyze the provided image carefully to differentiate between fully AI-generated images, partial AI edits (such as generative fill, inpainting, outpainting, or AI filters), and authentic images.
+Look specifically for blending errors, mismatched lighting, localized texture blurring, or unnatural boundaries that indicate partial AI edits.
+For fully AI-generated images, look for global inconsistencies, structural impossibilities, and uniform AI textures.
 You MUST return ONLY a valid JSON object. No explanation, no markdown, no code fences.
 Use exactly this structure:
 {
-  "verdict": "LIKELY DEEPFAKE" or "POSSIBLY DEEPFAKE" or "LIKELY AUTHENTIC" or "INCONCLUSIVE",
+  "verdict": "LIKELY DEEPFAKE" or "POSSIBLY DEEPFAKE" or "AI EDITED" or "LIKELY AUTHENTIC" or "INCONCLUSIVE",
   "confidence": <integer 0-100>,
   "risk_score": <integer 0-100>,
-  "summary": "<2-3 sentence plain English explanation of your findings>",
+  "manipulation_metrics": {
+    "full_ai_generation_likelihood": <integer 0-100>,
+    "partial_ai_edit_likelihood": <integer 0-100>
+  },
+  "summary": "<2-3 sentence plain English explanation. Explicitly state if the image is fully generated or partially edited, and point out the specific edited regions if applicable.>",
   "signals": {
     "face_analysis": { "score": <0-100>, "findings": ["<finding>", "<finding>"] },
     "lighting_shadows": { "score": <0-100>, "findings": ["<finding>", "<finding>"] },
@@ -54,6 +64,8 @@ Use exactly this structure:
 }
 Score meaning: 0 = no suspicion, 100 = highly suspicious.
 If no face is present, still analyze for AI generation artifacts in textures, edges, and background.
+If the image is fully AI-generated, use "LIKELY DEEPFAKE" or "POSSIBLY DEEPFAKE" and set full_ai_generation_likelihood high.
+If the image appears mostly real but contains localized AI edits (like generative fill), use the "AI EDITED" verdict and set partial_ai_edit_likelihood high.
 Be honest — if the image looks authentic, say so.
 `;
 

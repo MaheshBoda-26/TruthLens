@@ -1,6 +1,7 @@
 import React from 'react';
 import { VerdictBadge } from './VerdictBadge';
 import { ScoreBar } from './ScoreBar';
+import { ManipulationMetrics } from './ManipulationMetrics';
 import { MetadataFlags } from './MetadataFlags';
 import { SummaryBlock } from './SummaryBlock';
 import { Recommendation } from './Recommendation';
@@ -22,6 +23,8 @@ export function ResultsPanel({ result, onReset }: ResultsPanelProps) {
           <ScoreBar label="OVERALL RISK SCORE" score={result.risk_score} />
         </div>
         
+        <ManipulationMetrics metrics={result.manipulation_metrics} />
+
         <div className="mb-8">
           <h3 className="font-mono text-sm text-gray-400 tracking-widest uppercase mb-6 border-b border-border-dim pb-2">
             SIGNAL BREAKDOWN

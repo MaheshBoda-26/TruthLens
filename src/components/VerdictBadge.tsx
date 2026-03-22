@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface VerdictBadgeProps {
-  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
+  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "AI EDITED" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
   confidence: number;
 }
 
@@ -20,6 +20,11 @@ export function VerdictBadge({ verdict, confidence }: VerdictBadgeProps) {
       colorClass = 'text-warning';
       bgClass = 'bg-[#2a1a00]';
       shadowClass = 'shadow-[0_0_30px_rgba(255,170,0,0.3)] border-warning/50';
+      break;
+    case 'AI EDITED':
+      colorClass = 'text-purple-400';
+      bgClass = 'bg-[#1a0a2a]';
+      shadowClass = 'shadow-[0_0_30px_rgba(168,85,247,0.3)] border-purple-500/50';
       break;
     case 'LIKELY AUTHENTIC':
       colorClass = 'text-safe';

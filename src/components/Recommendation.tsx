@@ -2,7 +2,7 @@ import React from 'react';
 
 interface RecommendationProps {
   recommendation: string;
-  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
+  verdict: "LIKELY DEEPFAKE" | "POSSIBLY DEEPFAKE" | "AI EDITED" | "LIKELY AUTHENTIC" | "INCONCLUSIVE";
 }
 
 export function Recommendation({ recommendation, verdict }: RecommendationProps) {
@@ -17,6 +17,10 @@ export function Recommendation({ recommendation, verdict }: RecommendationProps)
     case 'POSSIBLY DEEPFAKE':
       bgClass = 'bg-warning/10 border-warning/30';
       icon = '🟡';
+      break;
+    case 'AI EDITED':
+      bgClass = 'bg-purple-900/20 border-purple-500/30';
+      icon = '🟣';
       break;
     case 'LIKELY AUTHENTIC':
       bgClass = 'bg-safe/10 border-safe/30';

@@ -3,6 +3,11 @@ import exifr from 'exifr';
 export async function extractMetadata(file: File): Promise<{ flags: string[] }> {
   const flags: string[] = [];
   
+  if (file.type.startsWith('video/')) {
+    flags.push("Video file — standard image EXIF metadata not applicable");
+    return { flags };
+  }
+
   try {
     const exif = await exifr.parse(file, { tiff: true, exif: true, gps: true });
     
@@ -11,8 +16,17 @@ export async function extractMetadata(file: File): Promise<{ flags: string[] }> 
       return { flags };
     }
 
-    if (exif.Software && (exif.Software.includes('Photoshop') || exif.Software.includes('Lightroom'))) {
-      flags.push("Edited with image software detected");
+    if (exif.Software) {
+      const software = exif.Software.toLowerCase();
+      const aiTools = ['midjourney', 'dall-e', 'dalle', 'stable diffusion', 'firefly', 'generative fill', 'ai', 'topaz', 'runway', 'canva'];
+      
+      if (aiTools.some(tool => software.includes(tool))) {
+        flags.push(`AI generation/editing software detected: ${exif.Software}`);
+      } else if (software.includes('photoshop') || software.includes('lightroom')) {
+        flags.push("Edited with image software detected (potential for AI generative fill)");
+      } else {
+        flags.push(`Software tag present: ${exif.Software}`);
+      }
     }
 
     if (!exif.Make || !exif.Model) {
@@ -35,8 +49,11 @@ export async function extractMetadata(file: File): Promise<{ flags: string[] }> 
     }
 
     return { flags };
-  } catch (error) {
-    console.error("EXIF parsing error:", error);
+  } catch (error: any) {
+    console.error("EXIF parsing error:", error.message || error);
+    if (error.message === 'Unknown file format') {
+      return { flags: ["No camera metadata found — possible AI generation or screenshot"] };
+    }
     return { flags: ["Could not read metadata"] };
   }
 }
