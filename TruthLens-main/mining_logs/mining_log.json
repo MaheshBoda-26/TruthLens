@@ -1,0 +1,44 @@
+[
+  {
+    "iteration": 1,
+    "timestamp": "2026-05-20 17:43:56",
+    "fps_mined": 612,
+    "n_easy": 408,
+    "n_medium": 181,
+    "n_hard": 23,
+    "fpr_before_mining": 30.6,
+    "val_f1": 75.43,
+    "val_precision": 67.11,
+    "val_recall": 86.1,
+    "val_fpr": 42.2,
+    "val_threshold": 0.48
+  },
+  {
+    "iteration": 1,
+    "timestamp": "2026-05-20 18:01:14",
+    "fps_mined": 612,
+    "n_easy": 408,
+    "n_medium": 181,
+    "n_hard": 23,
+    "fpr_before_mining": 30.6,
+    "val_f1": 68.84,
+    "val_precision": 89.31,
+    "val_recall": 56.0,
+    "val_fpr": 6.7,
+    "val_threshold": 0.3
+  },
+  {
+    "iteration": 2,
+    "timestamp": "2026-05-20 18:13:01",
+    "fps_mined": 50,
+    "n_easy": 8,
+    "n_medium": 2,
+    "n_hard": 1,
+    "fpr_before_mining": 2.5,
+    "val_f1": 58.98,
+    "val_precision": 95.31,
+    "val_recall": 42.7,
+    "val_fpr": 2.1,
+    "val_threshold": 0.3
+  }
+]

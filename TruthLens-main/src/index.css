@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #00ff80;
+  --color-danger: #ff3333;
+  --color-warning: #ffaa00;
+  --color-safe: #00cc44;
+  --color-surface: #0d1f14;
+  --color-border-dim: #1a3a22;
+  --color-bg-main: #050e09;
+
+  --font-mono: "Share Tech Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: #e2e8f0;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Scanline texture overlay */
+body::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+/* Pulsing green dot animation */
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 255, 128, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 20px rgba(0, 255, 128, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 255, 128, 0);
+  }
+}
+
+.animate-pulse-green {
+  animation: pulse-green 2s infinite;
+}
+
