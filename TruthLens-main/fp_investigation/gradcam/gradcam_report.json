@@ -1,0 +1,496 @@
+{
+  "threshold": 0.52,
+  "n_fp": 239,
+  "n_tn": 261,
+  "n_gradcam": 30,
+  "fp_attention": [
+    {
+      "center_pct": 27.0,
+      "corner_pct": 11.4,
+      "max_activation": 1.0,
+      "mean_activation": 0.3846,
+      "prob": 0.423,
+      "file": "real_1020.jpg"
+    },
+    {
+      "center_pct": 8.8,
+      "corner_pct": 18.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.2398,
+      "prob": 0.6338,
+      "file": "real_1285.jpg"
+    },
+    {
+      "center_pct": 18.7,
+      "corner_pct": 7.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.2596,
+      "prob": 0.5452,
+      "file": "real_1207.jpg"
+    },
+    {
+      "center_pct": 20.2,
+      "corner_pct": 1.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.1461,
+      "prob": 0.5814,
+      "file": "real_1308.jpg"
+    },
+    {
+      "center_pct": 45.2,
+      "corner_pct": 2.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.2434,
+      "prob": 0.3731,
+      "file": "real_1054.jpg"
+    },
+    {
+      "center_pct": 70.6,
+      "corner_pct": 1.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.1331,
+      "prob": 0.5458,
+      "file": "real_1130.jpg"
+    },
+    {
+      "center_pct": 11.1,
+      "corner_pct": 3.4,
+      "max_activation": 1.0,
+      "mean_activation": 0.2089,
+      "prob": 0.5145,
+      "file": "real_1372.jpg"
+    },
+    {
+      "center_pct": 35.2,
+      "corner_pct": 4.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.3986,
+      "prob": 0.6957,
+      "file": "real_1181.jpg"
+    },
+    {
+      "center_pct": 38.9,
+      "corner_pct": 7.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.1238,
+      "prob": 0.5507,
+      "file": "real_1269.jpg"
+    },
+    {
+      "center_pct": 48.6,
+      "corner_pct": 7.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.3137,
+      "prob": 0.5902,
+      "file": "real_1125.jpg"
+    },
+    {
+      "center_pct": 42.1,
+      "corner_pct": 1.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.4075,
+      "prob": 0.3377,
+      "file": "real_1180.jpg"
+    },
+    {
+      "center_pct": 41.5,
+      "corner_pct": 2.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.1985,
+      "prob": 0.6127,
+      "file": "real_1090.jpg"
+    },
+    {
+      "center_pct": 27.5,
+      "corner_pct": 16.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.3435,
+      "prob": 0.5918,
+      "file": "real_1200.jpg"
+    },
+    {
+      "center_pct": 1.3,
+      "corner_pct": 16.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.2862,
+      "prob": 0.5321,
+      "file": "real_1395.jpg"
+    },
+    {
+      "center_pct": 21.4,
+      "corner_pct": 16.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.212,
+      "prob": 0.6514,
+      "file": "real_1381.jpg"
+    },
+    {
+      "center_pct": 34.4,
+      "corner_pct": 10.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.3009,
+      "prob": 0.6966,
+      "file": "real_1127.jpg"
+    },
+    {
+      "center_pct": 58.8,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1348,
+      "prob": 0.4727,
+      "file": "real_1116.jpg"
+    },
+    {
+      "center_pct": 39.7,
+      "corner_pct": 9.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.157,
+      "prob": 0.6106,
+      "file": "real_1017.jpg"
+    },
+    {
+      "center_pct": 63.7,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1089,
+      "prob": 0.7249,
+      "file": "real_1131.jpg"
+    },
+    {
+      "center_pct": 47.0,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1788,
+      "prob": 0.4729,
+      "file": "real_1084.jpg"
+    },
+    {
+      "center_pct": 4.5,
+      "corner_pct": 18.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1002,
+      "prob": 0.6336,
+      "file": "real_1136.jpg"
+    },
+    {
+      "center_pct": 20.1,
+      "corner_pct": 11.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.2656,
+      "prob": 0.5406,
+      "file": "real_1247.jpg"
+    },
+    {
+      "center_pct": 2.3,
+      "corner_pct": 14.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.156,
+      "prob": 0.4544,
+      "file": "real_1344.jpg"
+    },
+    {
+      "center_pct": 13.3,
+      "corner_pct": 8.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.151,
+      "prob": 0.4968,
+      "file": "real_113.jpg"
+    },
+    {
+      "center_pct": 33.0,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.0905,
+      "prob": 0.7073,
+      "file": "real_1070.jpg"
+    },
+    {
+      "center_pct": 47.3,
+      "corner_pct": 2.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.3146,
+      "prob": 0.4139,
+      "file": "real_143.jpg"
+    },
+    {
+      "center_pct": 1.4,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.0689,
+      "prob": 0.5212,
+      "file": "real_1135.jpg"
+    },
+    {
+      "center_pct": 23.6,
+      "corner_pct": 8.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.2751,
+      "prob": 0.7435,
+      "file": "real_1141.jpg"
+    },
+    {
+      "center_pct": 16.1,
+      "corner_pct": 4.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.1407,
+      "prob": 0.7245,
+      "file": "real_10.jpg"
+    },
+    {
+      "center_pct": 33.1,
+      "corner_pct": 2.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.2844,
+      "prob": 0.5034,
+      "file": "real_1206.jpg"
+    }
+  ],
+  "tn_attention": [
+    {
+      "center_pct": 69.5,
+      "corner_pct": 7.6,
+      "max_activation": 1.0,
+      "mean_activation": 0.1542,
+      "prob": 0.5125,
+      "file": "real_1167.jpg"
+    },
+    {
+      "center_pct": 54.4,
+      "corner_pct": 2.3,
+      "max_activation": 1.0,
+      "mean_activation": 0.2816,
+      "prob": 0.5384,
+      "file": "real_1209.jpg"
+    },
+    {
+      "center_pct": 79.0,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.0916,
+      "prob": 0.5192,
+      "file": "real_1302.jpg"
+    },
+    {
+      "center_pct": 44.7,
+      "corner_pct": 10.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.4388,
+      "prob": 0.5278,
+      "file": "real_1003.jpg"
+    },
+    {
+      "center_pct": 9.8,
+      "corner_pct": 2.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.2147,
+      "prob": 0.6778,
+      "file": "real_1276.jpg"
+    },
+    {
+      "center_pct": 47.8,
+      "corner_pct": 11.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.1676,
+      "prob": 0.5975,
+      "file": "real_1211.jpg"
+    },
+    {
+      "center_pct": 18.2,
+      "corner_pct": 8.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.1608,
+      "prob": 0.5651,
+      "file": "real_1316.jpg"
+    },
+    {
+      "center_pct": 39.8,
+      "corner_pct": 8.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.1761,
+      "prob": 0.6856,
+      "file": "real_1242.jpg"
+    },
+    {
+      "center_pct": 29.3,
+      "corner_pct": 6.3,
+      "max_activation": 1.0,
+      "mean_activation": 0.2739,
+      "prob": 0.6686,
+      "file": "real_11.jpg"
+    },
+    {
+      "center_pct": 39.1,
+      "corner_pct": 4.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.2387,
+      "prob": 0.686,
+      "file": "real_1439.jpg"
+    },
+    {
+      "center_pct": 54.8,
+      "corner_pct": 0.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.2798,
+      "prob": 0.5835,
+      "file": "real_1240.jpg"
+    },
+    {
+      "center_pct": 6.2,
+      "corner_pct": 3.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.1477,
+      "prob": 0.5538,
+      "file": "real_1400.jpg"
+    },
+    {
+      "center_pct": 56.2,
+      "corner_pct": 1.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.2835,
+      "prob": 0.6503,
+      "file": "real_139.jpg"
+    },
+    {
+      "center_pct": 6.9,
+      "corner_pct": 9.6,
+      "max_activation": 1.0,
+      "mean_activation": 0.2022,
+      "prob": 0.517,
+      "file": "real_1218.jpg"
+    },
+    {
+      "center_pct": 25.6,
+      "corner_pct": 10.5,
+      "max_activation": 1.0,
+      "mean_activation": 0.3312,
+      "prob": 0.479,
+      "file": "real_1036.jpg"
+    },
+    {
+      "center_pct": 55.8,
+      "corner_pct": 7.9,
+      "max_activation": 1.0,
+      "mean_activation": 0.1596,
+      "prob": 0.5813,
+      "file": "real_1011.jpg"
+    },
+    {
+      "center_pct": 44.8,
+      "corner_pct": 6.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.2445,
+      "prob": 0.5369,
+      "file": "real_1233.jpg"
+    },
+    {
+      "center_pct": 21.2,
+      "corner_pct": 2.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.1228,
+      "prob": 0.513,
+      "file": "real_1162.jpg"
+    },
+    {
+      "center_pct": 21.0,
+      "corner_pct": 10.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.3876,
+      "prob": 0.5626,
+      "file": "real_1275.jpg"
+    },
+    {
+      "center_pct": 33.8,
+      "corner_pct": 5.8,
+      "max_activation": 1.0,
+      "mean_activation": 0.2739,
+      "prob": 0.589,
+      "file": "real_1105.jpg"
+    },
+    {
+      "center_pct": 44.1,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1054,
+      "prob": 0.5382,
+      "file": "real_126.jpg"
+    },
+    {
+      "center_pct": 22.2,
+      "corner_pct": 10.6,
+      "max_activation": 1.0,
+      "mean_activation": 0.3475,
+      "prob": 0.7414,
+      "file": "real_1059.jpg"
+    },
+    {
+      "center_pct": 46.6,
+      "corner_pct": 1.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.3645,
+      "prob": 0.6008,
+      "file": "real_1037.jpg"
+    },
+    {
+      "center_pct": 52.5,
+      "corner_pct": 3.1,
+      "max_activation": 1.0,
+      "mean_activation": 0.3685,
+      "prob": 0.5909,
+      "file": "real_1383.jpg"
+    },
+    {
+      "center_pct": 28.2,
+      "corner_pct": 5.8,
+      "max_activation": 1.0,
+      "mean_activation": 0.2423,
+      "prob": 0.4108,
+      "file": "real_1277.jpg"
+    },
+    {
+      "center_pct": 10.3,
+      "corner_pct": 11.2,
+      "max_activation": 1.0,
+      "mean_activation": 0.244,
+      "prob": 0.665,
+      "file": "real_1273.jpg"
+    },
+    {
+      "center_pct": 70.2,
+      "corner_pct": 0.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.1251,
+      "prob": 0.5241,
+      "file": "real_1220.jpg"
+    },
+    {
+      "center_pct": 23.3,
+      "corner_pct": 9.7,
+      "max_activation": 1.0,
+      "mean_activation": 0.4206,
+      "prob": 0.4265,
+      "file": "real_1069.jpg"
+    },
+    {
+      "center_pct": 34.5,
+      "corner_pct": 12.6,
+      "max_activation": 1.0,
+      "mean_activation": 0.3002,
+      "prob": 0.5096,
+      "file": "real_1385.jpg"
+    },
+    {
+      "center_pct": 28.1,
+      "corner_pct": 6.0,
+      "max_activation": 1.0,
+      "mean_activation": 0.286,
+      "prob": 0.5297,
+      "file": "real_1033.jpg"
+    }
+  ],
+  "summary": {
+    "fp_center_mean": 29.9,
+    "tn_center_mean": 37.3,
+    "fp_corner_mean": 6.9,
+    "tn_corner_mean": 6.0
+  }
+}
