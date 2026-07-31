@@ -25,12 +25,10 @@ const steps = [
   {
     number: '03',
     title: 'Configure Environment',
-    description: 'Set up your API keys and configuration',
+    description: 'Set up your configuration (no API keys required)',
     commands: [
       'cp .env.example .env.local',
-      '# Edit .env.local and add your keys:',
-      '# VITE_GEMINI_API_KEY=your_gemini_api_key_here',
-      '# OPTIONAL: OPENROUTER_API_KEY=your_openrouter_key',
+      '# Edit .env.local if needed (no API keys required for local model)',
     ],
     category: 'config',
   },
@@ -59,18 +57,6 @@ const steps = [
 
 const envVars = [
   {
-    key: 'VITE_GEMINI_API_KEY',
-    required: true,
-    description: 'Google Gemini API key for LLM forensic analysis. Get one at ai.google.dev',
-    example: 'AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-  },
-  {
-    key: 'OPENROUTER_API_KEY',
-    required: false,
-    description: 'OpenRouter key for alternative LLM providers (fallback)',
-    example: 'sk-or-v1-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
-  },
-  {
     key: 'PORT',
     required: false,
     description: 'Backend API server port (default: 3001)',
@@ -98,10 +84,6 @@ const troubleshooting = [
   {
     issue: 'Port already in use',
     solution: 'Kill existing processes: lsof -ti:3000,3001 | xargs kill -9',
-  },
-  {
-    issue: 'Gemini API quota exceeded',
-    solution: 'Check billing at ai.google.dev or wait for quota reset. Free tier: 60 requests/minute.',
   },
   {
     issue: 'ML backend unavailable',
@@ -296,7 +278,6 @@ export function SetupGuide() {
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent shrink-0" /> Node.js 18+ (LTS recommended)</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent shrink-0" /> npm 9+ or pnpm/yarn</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent shrink-0" /> Git for version control</div>
-              <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-accent shrink-0" /> Google Gemini API key (free)</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-warning shrink-0" /> FFmpeg (for video support)</div>
               <div className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-warning shrink-0" /> Python 3.10+ (optional, for local ML)</div>
             </div>

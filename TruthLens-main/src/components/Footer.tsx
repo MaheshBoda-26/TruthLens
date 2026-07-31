@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail, ArrowRight, Shield, Zap, Eye, Code } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
 
 const socialLinks = [
   { href: 'https://github.com/MaheshBoda-26', icon: Github, label: 'GitHub', ariaLabel: 'GitHub' },
@@ -107,48 +107,6 @@ export function Footer() {
             </ul>
           </nav>
 
-          {/* Tech Stack */}
-          <div className="lg:col-span-1">
-            <h4 className="font-mono text-xs tracking-widest uppercase text-accent mb-4">TECHNOLOGY</h4>
-            <div className="space-y-3">
-              <div className="flex items-center gap-3 p-3 bg-surface border border-border-dim rounded-lg hover:border-accent/30 transition-colors">
-                <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-accent" />
-                </div>
-                <div>
-                  <p className="font-mono text-xs text-white">Hybrid Analysis</p>
-                  <p className="font-sans text-[11px] text-gray-500">ML + LLM Pipeline</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 p-3 bg-surface border border-border-dim rounded-lg hover:border-accent/30 transition-colors">
-                <div className="w-10 h-10 rounded-lg bg-warning/10 flex items-center justify-center">
-                  <Zap className="w-5 h-5 text-warning" />
-                </div>
-                <div>
-                  <p className="font-mono text-xs text-white">Real-time</p>
-                  <p className="font-sans text-[11px] text-gray-500">Fast Detection</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 p-3 bg-surface border border-border-dim rounded-lg hover:border-accent/30 transition-colors">
-                <div className="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center">
-                  <Eye className="w-5 h-5 text-purple-400" />
-                </div>
-                <div>
-                  <p className="font-mono text-xs text-white">Forensic Detail</p>
-                  <p className="font-sans text-[11px] text-gray-500">Metadata Analysis</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-3 p-3 bg-surface border border-border-dim rounded-lg hover:border-accent/30 transition-colors">
-                <div className="w-10 h-10 rounded-lg bg-safe/10 flex items-center justify-center">
-                  <Code className="w-5 h-5 text-safe" />
-                </div>
-                <div>
-                  <p className="font-mono text-xs text-white">Open Source</p>
-                  <p className="font-sans text-[11px] text-gray-500">Transparent Code</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Bottom Bar */}

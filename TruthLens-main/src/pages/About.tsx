@@ -12,9 +12,9 @@ const team = [
 ];
 
 const milestones = [
-  { date: '2024 Q1', title: 'Project Initiation', description: 'Conceptualized hybrid ML+LLM detection pipeline', icon: GitBranch },
+  { date: '2024 Q1', title: 'Project Initiation', description: 'Conceptualized custom deepfake detection model pipeline', icon: GitBranch },
   { date: '2024 Q2', title: 'Core Engine v1', description: 'Built local heuristic analyzer with frequency domain analysis', icon: Cpu },
-  { date: '2024 Q3', title: 'Gemini Integration', description: 'Implemented LLM forensic reasoning via OpenRouter', icon: Layers },
+  { date: '2024 Q3', title: 'Model Training', description: 'Trained custom detection model on free deepfake datasets', icon: Layers },
   { date: '2024 Q4', title: 'Production Release', description: 'Launched v1.0 with React 19, Tailwind v4, full TypeScript', icon: Award },
   { date: '2025 Q1', title: 'Video Support', description: 'Added MP4/MOV frame extraction and temporal analysis', icon: Globe },
   { date: '2025 Q2', title: 'Open Source', description: 'Released under MIT license with full documentation', icon: Code },
@@ -29,7 +29,7 @@ const principles = [
   {
     icon: Lock,
     title: 'Privacy by Design',
-    description: 'Media never leaves your device for local analysis. Cloud LLM calls are optional and anonymized. No persistent storage.',
+    description: 'Media never leaves your device for local analysis. Runs entirely on-device with our custom-trained model. No persistent storage.',
   },
   {
     icon: Code,
@@ -56,14 +56,14 @@ const techDetails = [
     ],
   },
   {
-    category: 'LLM Reasoning',
+    category: 'Custom Model Training',
     items: [
-      'Gemini 1.5 Pro via OpenRouter',
-      'Structured forensic prompts',
-      'Multi-modal image + text analysis',
-      'Confidence calibration',
-      'Chain-of-thought explanations',
-      'Adversarial prompt hardening',
+      'Trained on free deepfake datasets (FaceForensics++, Celeb-DF, DFDC)',
+      'Data augmentation for robust generalization',
+      'Transfer learning from pre-trained vision backbones',
+      'Ensemble of multiple architectures',
+      'Confidence calibration with temperature scaling',
+      'Adversarial training for robustness',
     ],
   },
   {
@@ -75,6 +75,8 @@ const techDetails = [
       'Thumbnail consistency checks',
       'MakerNote deep inspection',
       'Quantization table analysis',
+      'Color profile forensics',
+      'Hex dump visualization',
     ],
   },
   {

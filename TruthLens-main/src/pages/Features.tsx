@@ -53,36 +53,36 @@ const detectionFeatures = [
   },
 ];
 
-const llmFeatures = [
+const modelTrainingFeatures = [
   {
-    title: 'Structured Forensic Prompts',
-    desc: 'Chain-of-thought reasoning with domain-specific forensic methodology embedded in prompts',
-    icon: Search,
+    title: 'Free Dataset Training',
+    desc: 'Trained on FaceForensics++, Celeb-DF, DFDC, and other public deepfake datasets',
+    icon: Database,
   },
   {
-    title: 'Multi-Modal Analysis',
-    desc: 'Simultaneous image + text + ML prediction input for holistic Gemini 1.5 Pro reasoning',
+    title: 'Data Augmentation Pipeline',
+    desc: 'Extensive augmentation including compression, noise, blur, and geometric transforms',
     icon: Layers,
   },
   {
+    title: 'Transfer Learning',
+    desc: 'Fine-tuned from pre-trained vision backbones (EfficientNet, ViT) for optimal feature extraction',
+    icon: Cpu,
+  },
+  {
+    title: 'Ensemble Architecture',
+    desc: 'Multiple model architectures combined for robust generalization across deepfake types',
+    icon: Network,
+  },
+  {
     title: 'Confidence Calibration',
-    desc: 'Temperature-scaled probability outputs with uncertainty quantification per verdict category',
+    desc: 'Temperature scaling and isotonic regression for reliable probability estimates',
     icon: BarChart,
   },
   {
-    title: 'Adversarial Hardening',
-    desc: 'Prompt injection defenses, output format enforcement, and hallucination detection checks',
+    title: 'Adversarial Robustness',
+    desc: 'Adversarial training and defensive distillation against evasion attacks',
     icon: Shield,
-  },
-  {
-    title: 'Explanation Generation',
-    desc: 'Human-readable forensic reports with specific evidence citations and confidence intervals',
-    icon: FileText,
-  },
-  {
-    title: 'Fallback Provider Support',
-    desc: 'OpenRouter integration for automatic failover to Claude, GPT-4, or open-source models',
-    icon: Network,
   },
 ];
 
@@ -109,7 +109,7 @@ const architectureFeatures = [
   },
   {
     title: 'Local-First Architecture',
-    desc: 'Core ML heuristics run client-side; cloud LLM is optional enhancement only',
+    desc: 'Custom-trained model runs entirely client-side; no cloud dependencies',
     icon: Lock,
   },
   {
@@ -275,7 +275,7 @@ export function Features() {
         </div>
       </section>
 
-      {/* LLM Pipeline */}
+      {/* Model Training */}
       <section className="py-20 px-4 relative bg-bg-main/50">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -285,15 +285,15 @@ export function Features() {
             className="text-center mb-16"
           >
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-400 font-mono text-xs tracking-widest uppercase mb-4">
-              LLM REASONING
+              MODEL TRAINING
             </span>
             <h2 className="font-mono text-4xl md:text-5xl font-bold text-white mb-4">
-              Gemini <span className="text-purple-400">Forensic</span> Pipeline
+              Custom <span className="text-purple-400">Trained</span> Model
             </h2>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {llmFeatures.map((feature, index) => (
+            {modelTrainingFeatures.map((feature, index) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 30 }}

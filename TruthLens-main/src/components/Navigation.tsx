@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { Menu, X, Github, Linkedin } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
 
 const navLinks = [
   { path: '/', label: 'HOME' },
@@ -94,6 +94,15 @@ export function Navigation() {
             >
               <Linkedin className="w-5 h-5" />
             </a>
+            <a
+              href="https://x.com/Mah_i2603"
+              className="text-gray-400 hover:text-accent transition-colors duration-300"
+              aria-label="Twitter/X"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -141,6 +150,9 @@ export function Navigation() {
                 </a>
                 <a href="https://www.linkedin.com/in/maheshboda/" className="text-gray-400 hover:text-accent transition-colors" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-6 h-6" />
+                </a>
+                <a href="https://x.com/MaheshBoda26" className="text-gray-400 hover:text-accent transition-colors" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="w-6 h-6" />
                 </a>
               </div>
             </div>

@@ -6,8 +6,8 @@ import { Search, Shield, Zap, Eye, Code, ArrowRight, CheckCircle, Terminal, Cpu,
 const features = [
   {
     icon: Shield,
-    title: 'Hybrid Analysis Pipeline',
-    description: 'Combines local ML heuristics with Gemini LLM for forensic-grade detection accuracy.',
+    title: 'Custom Trained Detection Model',
+    description: 'Trained on free deepfake datasets for forensic-grade detection accuracy.',
     color: 'text-accent',
     bgColor: 'bg-accent/10',
     borderColor: 'border-accent/30',
@@ -43,19 +43,6 @@ const stats = [
   { value: '< 2s', label: 'Avg Analysis Time', icon: Zap },
   { value: '4+', label: 'Verdict Categories', icon: Terminal },
   { value: '100%', label: 'Client-side Option', icon: Lock },
-];
-
-const techStack = [
-  { name: 'React 19', category: 'Frontend' },
-  { name: 'TypeScript', category: 'Language' },
-  { name: 'Tailwind v4', category: 'Styling' },
-  { name: 'Vite 6', category: 'Build' },
-  { name: 'Express', category: 'Backend' },
-  { name: 'Node.js', category: 'Runtime' },
-  { name: 'Gemini API', category: 'LLM' },
-  { name: 'OpenRouter', category: 'AI Gateway' },
-  { name: 'Puppeteer', category: 'Automation' },
-  { name: 'Lucide Icons', category: 'UI' },
 ];
 
 export function Home() {
@@ -95,7 +82,7 @@ export function Home() {
             className="mb-10 max-w-3xl mx-auto"
           >
             <p className="font-sans text-lg md:text-xl text-gray-300 leading-relaxed">
-              Forensic-grade deepfake detection powered by a hybrid ML + LLM pipeline.
+              Forensic-grade deepfake detection powered by a custom-trained model on free datasets.
               Analyze images and videos with confidence — see through the fake.
             </p>
           </motion.div>
@@ -248,7 +235,7 @@ export function Home() {
               How <span className="text-accent">TruthLens Works</span>
             </h2>
             <p className="font-sans text-lg text-gray-400 max-w-2xl mx-auto">
-              A two-stage analysis combining deterministic heuristics with LLM reasoning for unmatched accuracy.
+              A two-stage analysis combining deterministic heuristics with a custom-trained deepfake detection model for unmatched accuracy.
             </p>
           </motion.div>
 
@@ -280,8 +267,8 @@ export function Home() {
                 },
                 {
                   step: '03',
-                  title: 'Gemini LLM Analysis',
-                  description: 'Image + ML prediction sent to Gemini via OpenRouter for deep forensic reasoning: lighting inconsistencies, geometry errors, temporal anomalies.',
+                  title: 'Custom Model Inference',
+                  description: 'Image analyzed by our custom-trained deepfake detection model trained on diverse free datasets for robust generalization.',
                   icon: Shield,
                   color: 'text-purple-400',
                   bgColor: 'bg-purple-500/10',
@@ -333,41 +320,6 @@ export function Home() {
         </div>
       </section>
 
-      {/* Tech Stack Section */}
-      <section className="py-20 px-4 relative">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/30 text-accent font-mono text-xs tracking-widest uppercase mb-4">
-              TECHNOLOGY STACK
-            </span>
-            <h2 className="font-mono text-4xl md:text-5xl font-bold text-white mb-4">
-              Built with <span className="text-accent">Modern Tools</span>
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-            {techStack.map((tech, index) => (
-              <motion.div
-                key={tech.name}
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="p-4 bg-surface border border-border-dim rounded-xl hover:border-accent/30 hover:bg-surface/50 transition-all duration-300 text-center group"
-              >
-                <div className="font-mono text-sm font-bold text-white group-hover:text-accent transition-colors">{tech.name}</div>
-                <div className="font-sans text-[11px] text-gray-500 uppercase tracking-wider mt-1">{tech.category}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 px-4 relative">
         <div className="max-w-4xl mx-auto text-center">
@@ -383,7 +335,7 @@ export function Home() {
                 Ready to <span className="text-accent">Detect Deepfakes</span>?
               </h2>
               <p className="font-sans text-lg text-gray-400 mb-8 max-w-xl mx-auto">
-                Start analyzing media in seconds. No account required, runs locally with optional cloud LLM enhancement.
+                Start analyzing media in seconds. No account required, runs entirely locally with our custom-trained model.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
