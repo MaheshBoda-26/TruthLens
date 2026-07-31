@@ -8,7 +8,7 @@ const steps = [
     title: 'Clone Repository',
     description: 'Get the latest source code from GitHub',
     commands: [
-      'git clone https://github.com/yourusername/truthlens.git',
+      'git clone https://github.com/MaheshBoda-26/TruthLens.git',
       'cd truthlens/TruthLens-main',
     ],
     category: 'setup',
@@ -251,7 +251,7 @@ export function SetupGuide() {
               <h2 className="font-mono text-2xl font-bold text-white">Quick Start (TL;DR)</h2>
             </div>
             <CommandBlock commands={[
-              'git clone https://github.com/yourusername/truthlens.git',
+              'git clone https://github.com/MaheshBoda-26/TruthLens.git',
               'cd truthlens/TruthLens-main',
               'npm install',
               'cp .env.example .env.local',
@@ -498,7 +498,7 @@ export function SetupGuide() {
                 You have the guide. Now build something great.
               </p>
               <a
-                href="https://github.com/yourusername/truthlens"
+                href="https://github.com/MaheshBoda-26/TruthLens"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-black font-mono text-lg tracking-widest uppercase rounded-xl hover:bg-accent/90 transition-all duration-300 shadow-[0_0_30px_rgba(0,255,128,0.4)]"

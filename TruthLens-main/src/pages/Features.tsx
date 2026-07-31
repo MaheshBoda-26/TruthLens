@@ -546,7 +546,7 @@ export function Features() {
                 Every algorithm, every threshold, every prompt — open for inspection and contribution.
               </p>
               <a
-                href="https://github.com/yourusername/truthlens"
+                href="https://github.com/MaheshBoda-26/TruthLens"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-accent text-black font-mono text-lg tracking-widest uppercase rounded-xl hover:bg-accent/90 transition-all duration-300 shadow-[0_0_30px_rgba(0,255,128,0.4)]"

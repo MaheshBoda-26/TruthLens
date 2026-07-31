@@ -94,7 +94,7 @@ export function Home() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20"
           >
             <Link
-              to="/setup"
+              to="/analyzer"
               className="group px-8 py-4 bg-accent text-black font-mono text-lg tracking-widest uppercase rounded-xl hover:bg-accent/90 transition-all duration-300 shadow-[0_0_30px_rgba(0,255,128,0.4)] hover:shadow-[0_0_50px_rgba(0,255,128,0.6)] flex items-center gap-3"
             >
               <Search className="w-6 h-6" />
@@ -339,7 +339,7 @@ export function Home() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link
-                  to="/setup"
+                  to="/analyzer"
                   className="group px-8 py-4 bg-accent text-black font-mono text-lg tracking-widest uppercase rounded-xl hover:bg-accent/90 transition-all duration-300 shadow-[0_0_30px_rgba(0,255,128,0.4)] hover:shadow-[0_0_50px_rgba(0,255,128,0.6)] flex items-center gap-3"
                 >
                   <Search className="w-6 h-6" />

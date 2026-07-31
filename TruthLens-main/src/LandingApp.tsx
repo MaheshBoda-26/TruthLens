@@ -4,6 +4,7 @@ import { Header as AppHeader } from './components/Header';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Features } from './pages/Features';
+import App from './App';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { BackgroundEffects } from './components/BackgroundEffects';
@@ -21,6 +22,7 @@ function LandingLayout() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/features" element={<Features />} />
+          <Route path="/analyzer" element={<App />} />
         </Routes>
       </main>
       <Footer />

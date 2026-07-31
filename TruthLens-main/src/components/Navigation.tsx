@@ -66,12 +66,6 @@ export function Navigation() {
                 )}
               </Link>
             ))}
-            <a
-              href="#"
-              className="px-5 py-2 bg-accent text-black font-mono text-xs tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)] hover:shadow-[0_0_30px_rgba(0,255,128,0.5)]"
-            >
-              LAUNCH APP
-            </a>
           </div>
 
           {/* Social Links - Desktop */}
@@ -138,12 +132,6 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <a
-                href="#"
-                className="text-center px-5 py-3 bg-accent text-black font-mono text-sm tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)]"
-              >
-                LAUNCH APP
-              </a>
               <div className="flex justify-center gap-6 pt-4 border-t border-border-dim">
                 <a href="https://github.com/MaheshBoda-26" className="text-gray-400 hover:text-accent transition-colors" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                   <Github className="w-6 h-6" />
