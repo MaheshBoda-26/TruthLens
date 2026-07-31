@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { Menu, X, Github, Linkedin, Play } from 'lucide-react';
+import { Menu, X, Github, Linkedin } from 'lucide-react';
 
 const navLinks = [
   { path: '/', label: 'HOME' },
@@ -67,15 +67,6 @@ export function Navigation() {
               </Link>
             ))}
             <a
-              href="https://tradax.example.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-5 py-2 bg-purple-600 text-white font-mono text-xs tracking-widest uppercase rounded-lg hover:bg-purple-500 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] flex items-center gap-2"
-            >
-              <Play className="w-4 h-4" />
-              DEMO
-            </a>
-            <a
               href="#"
               className="px-5 py-2 bg-accent text-black font-mono text-xs tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)] hover:shadow-[0_0_30px_rgba(0,255,128,0.5)]"
             >
@@ -138,15 +129,6 @@ export function Navigation() {
                   {link.label}
                 </Link>
               ))}
-              <a
-                href="https://tradax.example.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-center px-5 py-3 bg-purple-600 text-white font-mono text-sm tracking-widest uppercase rounded-lg hover:bg-purple-500 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] flex items-center justify-center gap-2"
-              >
-                <Play className="w-4 h-4" />
-                DEMO
-              </a>
               <a
                 href="#"
                 className="text-center px-5 py-3 bg-accent text-black font-mono text-sm tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)]"
