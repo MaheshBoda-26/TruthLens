@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-do
 import { Header as AppHeader } from './components/Header';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
-import { SetupGuide } from './pages/SetupGuide';
 import { Features } from './pages/Features';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
@@ -21,7 +20,6 @@ function LandingLayout() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/setup" element={<SetupGuide />} />
           <Route path="/features" element={<Features />} />
         </Routes>
       </main>

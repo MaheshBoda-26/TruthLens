@@ -7,7 +7,7 @@ const team = [
     name: 'Mahesh Boda',
     role: 'Founder & Lead Developer',
     bio: 'Full-stack engineer specializing in AI/ML applications and forensic technology. Passionate about digital truth and open-source security.',
-    socials: { github: '#', linkedin: '#', twitter: '#' },
+    socials: { github: 'https://github.com/MaheshBoda-26', linkedin: 'https://www.linkedin.com/in/maheshboda/', twitter: 'https://x.com/MaheshBoda26' },
   },
 ];
 

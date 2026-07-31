@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Copy, Check, Terminal, Github, FolderOpen, FileText, Settings, Play, Shield, Zap, Code, ArrowRight, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react';
+import { Copy, Check, Terminal, Github, FolderOpen, FileText, Settings, Play, Shield, Zap, Code, ArrowRight, ExternalLink, ChevronDown, ChevronUp, CheckCircle, Globe } from 'lucide-react';
 
 const steps = [
   {
@@ -187,7 +187,7 @@ export function SetupGuide() {
     </div>
   );
 
-  const ToggleSection = ({ title, icon, defaultOpen, sectionKey }: { title: string, icon: React.ReactNode, defaultOpen: boolean, sectionKey: string }) => (
+  const ToggleSection = ({ title, icon, defaultOpen, sectionKey, children }: { title: string, icon: React.ReactNode, defaultOpen: boolean, sectionKey: string, children: React.ReactNode }) => (
     <div className="bg-surface border border-border-dim rounded-2xl overflow-hidden">
       <button
         onClick={() => setExpandedSections(prev => ({ ...prev, [sectionKey]: !prev[sectionKey] }))}
@@ -431,7 +431,7 @@ export function SetupGuide() {
         <div className="max-w-4xl mx-auto">
           <ToggleSection
             title="Troubleshooting"
-            icon=<Shield className="w-5 h-5" />
+            icon={<Shield className="w-5 h-5" />}
             defaultOpen={true}
             sectionKey="troubleshooting"
           >
@@ -463,7 +463,7 @@ export function SetupGuide() {
         <div className="max-w-4xl mx-auto">
           <ToggleSection
             title="Production Deployment"
-            icon=<Globe className="w-5 h-5" />
+            icon={<Globe className="w-5 h-5" />}
             defaultOpen={false}
             sectionKey="production"
           >

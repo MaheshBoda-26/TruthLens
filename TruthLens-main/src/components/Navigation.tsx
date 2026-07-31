@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
+import { motion } from 'motion/react';
+import { Menu, X, Github, Linkedin, Play } from 'lucide-react';
 
 const navLinks = [
   { path: '/', label: 'HOME' },
   { path: '/features', label: 'FEATURES' },
   { path: '/about', label: 'ABOUT' },
-  { path: '/setup', label: 'SETUP' },
 ];
 
 export function Navigation() {
@@ -67,6 +67,15 @@ export function Navigation() {
               </Link>
             ))}
             <a
+              href="https://tradax.example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2 bg-purple-600 text-white font-mono text-xs tracking-widest uppercase rounded-lg hover:bg-purple-500 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] hover:shadow-[0_0_30px_rgba(139,92,246,0.5)] flex items-center gap-2"
+            >
+              <Play className="w-4 h-4" />
+              DEMO
+            </a>
+            <a
               href="#"
               className="px-5 py-2 bg-accent text-black font-mono text-xs tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)] hover:shadow-[0_0_30px_rgba(0,255,128,0.5)]"
             >
@@ -77,25 +86,22 @@ export function Navigation() {
           {/* Social Links - Desktop */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href="#"
+              href="https://github.com/MaheshBoda-26"
               className="text-gray-400 hover:text-accent transition-colors duration-300"
               aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/maheshboda/"
               className="text-gray-400 hover:text-accent transition-colors duration-300"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Linkedin className="w-5 h-5" />
-            </a>
-            <a
-              href="#"
-              className="text-gray-400 hover:text-accent transition-colors duration-300"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-5 h-5" />
             </a>
           </div>
 
@@ -133,20 +139,26 @@ export function Navigation() {
                 </Link>
               ))}
               <a
+                href="https://tradax.example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center px-5 py-3 bg-purple-600 text-white font-mono text-sm tracking-widest uppercase rounded-lg hover:bg-purple-500 transition-all duration-300 shadow-[0_0_20px_rgba(139,92,246,0.3)] flex items-center justify-center gap-2"
+              >
+                <Play className="w-4 h-4" />
+                DEMO
+              </a>
+              <a
                 href="#"
                 className="text-center px-5 py-3 bg-accent text-black font-mono text-sm tracking-widest uppercase rounded-lg hover:bg-accent/90 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,128,0.3)]"
               >
                 LAUNCH APP
               </a>
               <div className="flex justify-center gap-6 pt-4 border-t border-border-dim">
-                <a href="#" className="text-gray-400 hover:text-accent transition-colors" aria-label="GitHub">
+                <a href="https://github.com/MaheshBoda-26" className="text-gray-400 hover:text-accent transition-colors" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
                   <Github className="w-6 h-6" />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-accent transition-colors" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/maheshboda/" className="text-gray-400 hover:text-accent transition-colors" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-6 h-6" />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-accent transition-colors" aria-label="Twitter">
-                  <Twitter className="w-6 h-6" />
                 </a>
               </div>
             </div>

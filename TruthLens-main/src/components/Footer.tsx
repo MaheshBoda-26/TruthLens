@@ -12,7 +12,6 @@ const footerLinks = {
   product: [
     { label: 'Features', href: '/features' },
     { label: 'Documentation', href: '/about' },
-    { label: 'Setup Guide', href: '/setup' },
     { label: 'Launch App', href: '#' },
   ],
   company: [

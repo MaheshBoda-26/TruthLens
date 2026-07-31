@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Shield, Zap, Eye, Code, Lock, Globe, Cpu, Database, Layers, Terminal, CheckCircle, ArrowRight, ExternalLink, Search, Film, Image, FileText, Settings, Sliders, BarChart, AlertTriangle, Clock, Microscope, Network, Key } from 'lucide-react';
+import { Shield, Zap, Eye, Code, Lock, Globe, Cpu, Database, Layers, Terminal, CheckCircle, ArrowRight, ExternalLink, Search, Film, Image, FileText, Settings, Sliders, BarChart, AlertTriangle, Clock, Microscope, Network, Key, Github } from 'lucide-react';
 
 const detectionFeatures = [
   {
