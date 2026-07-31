@@ -4,7 +4,7 @@ TruthLens AI is an advanced, hybrid deepfake detection and media authenticity an
 
 ---
 
-#TruthLens AI Main Banner
+# TruthLens AI Main Banner
 
 <img width="1710" height="1074" alt="Screenshot 2026-07-31 at 2 07 10 PM" src="https://github.com/user-attachments/assets/6801782b-a673-4d74-9de6-bf78fdfbae4e" />
 
