@@ -235,7 +235,7 @@ export async function analyzeWithGemini(file: File, mediaType: 'image' | 'video'
 
     return mergeWithMLPrediction(geminiResult, mlPrediction);
   } catch (err: any) {
-    if (err.message === "PARSE_FAILED" || err.message === "NO_CONTENT" || err.message === "QUOTA_EXCEEDED") {
+    if (err.message === "PARSE_FAILED" || err.message === "NO_CONTENT" || err.message === "QUOTA_EXCEEDED" || err.message === "ML_BACKEND_UNAVAILABLE" || err.message === "API_KEY_MISSING") {
       throw err;
     }
     throw new Error("API_FAILED");
