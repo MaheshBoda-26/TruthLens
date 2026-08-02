@@ -1,0 +1,33 @@
+# Ignore local python virtual environments
+.venv
+venv
+**/venv
+**/.venv
+
+# Ignore datasets and results
+leaked_duplicates/
+dataset_audit_results/
+label_quality_results/
+leakage_audit_results/
+leaked_duplicates/
+hard_negatives/
+calibration_results/
+backups/
+mining_logs/
+accuracy_fixes/
+**/__pycache__
+__pycache__/
+
+# Ignore models and large binaries
+model/
+**/*.pth
+**/*.pyc
+
+# Ignore python scripts (unless needed for build, which they aren't)
+*.py
+TruthLens-main/*.py
+TruthLens-main/model/
+
+# Ignore node_modules
+node_modules/
+**/node_modules/

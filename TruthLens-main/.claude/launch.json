@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vite-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "tsx-server",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "server"],
+      "port": 3001
+    },
+    {
+      "name": "flask-ml-server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["server.py"],
+      "port": 5001
+    },
+    {
+      "name": "dev-all",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev:all"],
+      "port": 3000
+    }
+  ]
+}
