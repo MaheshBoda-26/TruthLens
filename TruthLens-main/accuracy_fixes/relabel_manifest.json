@@ -1,0 +1,17 @@
+{
+  "_comment": "Corrected ground-truth labels for high-confidence Test mislabels. Generated from label_quality_results/label_quality_report.json Test_mislabel_candidates (12 images, visually verified in mislabel_candidates_grid.png). Each entry flips the stored label. Original 1=Fake, 0=Real.",
+  "flips": [
+    {"path": "Test/Fake/fake_3601.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4719.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4384.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4467.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_19.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4151.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4848.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4264.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_3859.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4649.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Fake/fake_4030.jpg", "stored": 1, "corrected": 0},
+    {"path": "Test/Real/real_267.jpg", "stored": 0, "corrected": 1}
+  ]
+}

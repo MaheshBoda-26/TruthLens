@@ -1,0 +1,286 @@
+{
+  "total_images": 190335,
+  "exact_dup_cross_split_groups": 5334,
+  "exact_dup_cross_split_files": 10668,
+  "exact_dup_by_split_pair": {
+    "('Train', 'Validation')": 5334
+  },
+  "exact_dup_label_consistent": 5334,
+  "exact_dup_label_conflicting": 0,
+  "near_dup_cross_split_pairs": 13390,
+  "near_dup_by_split_pair": {
+    "frozenset({'Validation', 'Train'})": 11161,
+    "frozenset({'Test', 'Train'})": 966,
+    "frozenset({'Test', 'Validation'})": 1263
+  },
+  "near_dup_label_consistent": 12664,
+  "near_dup_label_conflicting": 726,
+  "near_dup_distance_hist": {
+    "0": 7937,
+    "1": 794,
+    "2": 614,
+    "3": 696,
+    "4": 1009,
+    "5": 2340
+  },
+  "exact_hash_scene_buckets_spanning_splits": 7907,
+  "filename_stem_reused_across_splits": 39428,
+  "filename_stem_by_split_pair": {
+    "frozenset({'Test', 'Validation', 'Train'})": 10905,
+    "frozenset({'Validation', 'Train'})": 28523
+  },
+  "sample_reused_id_stems": [
+    {
+      "stem": "fake_0.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 23,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_0.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_0.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_0.jpg"
+      ]
+    },
+    {
+      "stem": "fake_1.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 30,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_1.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_1.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 16,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_10.jpg"
+      ]
+    },
+    {
+      "stem": "fake_100.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 29,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_100.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_100.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_100.jpg"
+      ]
+    },
+    {
+      "stem": "fake_1000.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 27,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_1000.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_1000.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1000.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10000.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 37,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10000.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10000.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10001.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 29,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10001.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10001.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10002.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 32,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10002.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10002.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10003.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 33,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10003.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10003.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10004.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 29,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10004.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10004.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10005.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 30,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10005.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10005.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10006.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 39,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10006.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10006.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10007.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 33,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10007.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10007.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10008.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 42,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10008.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10008.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10009.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 35,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10009.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10009.jpg"
+      ]
+    },
+    {
+      "stem": "fake_1001.jpg",
+      "splits": [
+        "Test",
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 26,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_1001.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_1001.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1001.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10010.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 31,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10010.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10010.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10011.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 30,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10011.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10011.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10012.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 37,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10012.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10012.jpg"
+      ]
+    },
+    {
+      "stem": "fake_10013.jpg",
+      "splits": [
+        "Train",
+        "Validation"
+      ],
+      "min_hamming": 34,
+      "paths": [
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Train/Fake/fake_10013.jpg",
+        "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Validation/Fake/fake_10013.jpg"
+      ]
+    }
+  ]
+}

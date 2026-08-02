@@ -42,7 +42,7 @@ DEEPFAKE_PATH = Path.home() / ".cache/kagglehub/datasets/manjilkarki/deepfake-an
 
 # Transforms
 train_tf = transforms.Compose([
-    transforms.Resize((IMG_SIZE, IMG_SIZE)),
+    transforms.Resize((IMG_SIZE, IMG_SIZE), antialias=True),
     transforms.RandomHorizontalFlip(p=0.5),
     transforms.RandomRotation(10),
     transforms.ColorJitter(brightness=0.15, contrast=0.15, saturation=0.08, hue=0.03),
@@ -52,7 +52,7 @@ train_tf = transforms.Compose([
 ])
 
 val_tf = transforms.Compose([
-    transforms.Resize((IMG_SIZE, IMG_SIZE)),
+    transforms.Resize((IMG_SIZE, IMG_SIZE), antialias=True),
     transforms.ToTensor(),
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
 ])

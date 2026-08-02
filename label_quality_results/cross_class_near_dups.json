@@ -1,0 +1,232 @@
+[
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1159.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_1782.jpg",
+    "distance": 0
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2566.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_813.jpg",
+    "distance": 0
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1853.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2133.jpg",
+    "distance": 1
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1853.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_4958.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1898.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3818.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2045.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2222.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2262.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2327.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2320.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2359.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3744.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_225.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4276.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2117.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4743.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_704.jpg",
+    "distance": 2
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1306.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_1846.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2218.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2297.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2341.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3962.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3548.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_134.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3564.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3517.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3735.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_221.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3744.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_1841.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3744.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_4862.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4908.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_4023.jpg",
+    "distance": 3
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1190.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_1795.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1369.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_261.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1387.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3617.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1522.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3678.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1582.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2935.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1771.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2089.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1898.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_500.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2304.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2354.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2604.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_844.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2626.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_851.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3547.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_133.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3559.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3516.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3735.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3578.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3826.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_270.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4743.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2362.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4955.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_844.jpg",
+    "distance": 4
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1316.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2088.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1520.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3677.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1570.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_3690.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_2366.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2369.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3591.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2088.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3743.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_224.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4078.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_374.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4175.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2088.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4204.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2075.jpg",
+    "distance": 5
+  },
+  {
+    "fake": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4843.jpg",
+    "real": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_2431.jpg",
+    "distance": 5
+  }
+]

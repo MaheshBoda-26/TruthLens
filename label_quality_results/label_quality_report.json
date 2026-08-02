@@ -1,0 +1,920 @@
+{
+  "cross_class_exact_duplicates": 0,
+  "cross_class_near_duplicates_sampled": 41,
+  "cross_class_near_dup_sample_size": [
+    5000,
+    5000
+  ],
+  "cross_split_label_conflicts": 0,
+  "Test_mislabel_candidates": [
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3601.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.0991954505443573,
+      "prob_base": 0.19029450416564941,
+      "prob_hn": 0.008096391335129738
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Real/real_267.jpg",
+      "label": 0,
+      "label_name": "Real",
+      "prob_ens": 0.9060762524604797,
+      "prob_base": 0.8756468296051025,
+      "prob_hn": 0.9365056753158569
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4719.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.093845896422863,
+      "prob_base": 0.1845124363899231,
+      "prob_hn": 0.003179349238052964
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4384.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.0936821699142456,
+      "prob_base": 0.18643631041049957,
+      "prob_hn": 0.0009280266240239143
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4467.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.09266074001789093,
+      "prob_base": 0.17892667651176453,
+      "prob_hn": 0.0063948011957108974
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_19.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.089657261967659,
+      "prob_base": 0.17498578131198883,
+      "prob_hn": 0.004328744951635599
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4151.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.08686984330415726,
+      "prob_base": 0.17314304411411285,
+      "prob_hn": 0.0005966391763649881
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4848.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.08348437398672104,
+      "prob_base": 0.13163237273693085,
+      "prob_hn": 0.03533637896180153
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4264.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.08250046521425247,
+      "prob_base": 0.16377532482147217,
+      "prob_hn": 0.0012256123591214418
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_3859.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.0699506551027298,
+      "prob_base": 0.13590647280216217,
+      "prob_hn": 0.0039948406629264355
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4649.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.06371957808732986,
+      "prob_base": 0.1261032223701477,
+      "prob_hn": 0.0013359375298023224
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_4030.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.05983873829245567,
+      "prob_base": 0.11948380619287491,
+      "prob_hn": 0.00019366764172445983
+    }
+  ],
+  "Test_ambiguous": [
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_0.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.538184642791748,
+      "prob_base": 0.7841441631317139,
+      "prob_hn": 0.29222506284713745
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.42247626185417175,
+      "prob_base": 0.7101387977600098,
+      "prob_hn": 0.13481371104717255
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_10.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6399317979812622,
+      "prob_base": 0.8425134420394897,
+      "prob_hn": 0.4373501241207123
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_100.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.46218568086624146,
+      "prob_base": 0.6756687164306641,
+      "prob_hn": 0.24870261549949646
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1004.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5562954545021057,
+      "prob_base": 0.6593149304389954,
+      "prob_hn": 0.45327600836753845
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1018.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6185334920883179,
+      "prob_base": 0.7582768797874451,
+      "prob_hn": 0.4787900745868683
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1026.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5586730241775513,
+      "prob_base": 0.7166888117790222,
+      "prob_hn": 0.40065720677375793
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1027.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4072601795196533,
+      "prob_base": 0.5128526091575623,
+      "prob_hn": 0.301667720079422
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1032.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5153180360794067,
+      "prob_base": 0.3863019347190857,
+      "prob_hn": 0.644334077835083
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1036.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.42251139879226685,
+      "prob_base": 0.6393799185752869,
+      "prob_hn": 0.20564289391040802
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1037.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4402635097503662,
+      "prob_base": 0.5838034749031067,
+      "prob_hn": 0.2967235743999481
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_104.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3648739159107208,
+      "prob_base": 0.7184591889381409,
+      "prob_hn": 0.01128863263875246
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1046.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5754960179328918,
+      "prob_base": 0.727863609790802,
+      "prob_hn": 0.4231284558773041
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1049.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5656105875968933,
+      "prob_base": 0.7459243535995483,
+      "prob_hn": 0.3852967917919159
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_105.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4176163971424103,
+      "prob_base": 0.7955467700958252,
+      "prob_hn": 0.039686013013124466
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1060.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5886268615722656,
+      "prob_base": 0.6763091087341309,
+      "prob_hn": 0.5009445548057556
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_107.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5547617673873901,
+      "prob_base": 0.8056837916374207,
+      "prob_hn": 0.30383968353271484
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_108.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4941510558128357,
+      "prob_base": 0.8353073000907898,
+      "prob_hn": 0.1529948115348816
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1082.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6329408884048462,
+      "prob_base": 0.5895549058914185,
+      "prob_hn": 0.6763268709182739
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1083.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6293570399284363,
+      "prob_base": 0.6736320853233337,
+      "prob_hn": 0.5850819945335388
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1084.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6239339709281921,
+      "prob_base": 0.4738985002040863,
+      "prob_hn": 0.7739694714546204
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_110.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.42324772477149963,
+      "prob_base": 0.7792668342590332,
+      "prob_hn": 0.06722863018512726
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1100.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6206497550010681,
+      "prob_base": 0.5963093638420105,
+      "prob_hn": 0.6449901461601257
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1113.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6071884632110596,
+      "prob_base": 0.5434420704841614,
+      "prob_hn": 0.670934796333313
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1115.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.47174131870269775,
+      "prob_base": 0.5694147348403931,
+      "prob_hn": 0.37406790256500244
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1123.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5240105986595154,
+      "prob_base": 0.6541783809661865,
+      "prob_hn": 0.39384281635284424
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1127.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5982156991958618,
+      "prob_base": 0.5434433817863464,
+      "prob_hn": 0.652988076210022
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_114.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.596346914768219,
+      "prob_base": 0.7230454087257385,
+      "prob_hn": 0.4696483910083771
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1140.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3557701110839844,
+      "prob_base": 0.6991575360298157,
+      "prob_hn": 0.01238269917666912
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1142.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5397224426269531,
+      "prob_base": 0.8187074065208435,
+      "prob_hn": 0.26073744893074036
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1144.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5362956523895264,
+      "prob_base": 0.7640668153762817,
+      "prob_hn": 0.308524489402771
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1147.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.470819354057312,
+      "prob_base": 0.6762974262237549,
+      "prob_hn": 0.26534131169319153
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1148.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.41462942957878113,
+      "prob_base": 0.6624361872673035,
+      "prob_hn": 0.16682268679141998
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1155.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5638411045074463,
+      "prob_base": 0.8846948146820068,
+      "prob_hn": 0.24298739433288574
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1156.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4691588580608368,
+      "prob_base": 0.8301776647567749,
+      "prob_hn": 0.10814003646373749
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1157.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4043029844760895,
+      "prob_base": 0.6952165365219116,
+      "prob_hn": 0.11338943243026733
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1158.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5370473265647888,
+      "prob_base": 0.6684725880622864,
+      "prob_hn": 0.40562209486961365
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1159.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3565843105316162,
+      "prob_base": 0.6868095397949219,
+      "prob_hn": 0.026359055191278458
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1160.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3575599491596222,
+      "prob_base": 0.678127646446228,
+      "prob_hn": 0.03699227049946785
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1161.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6475889086723328,
+      "prob_base": 0.8265537619590759,
+      "prob_hn": 0.4686240255832672
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1162.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.46342965960502625,
+      "prob_base": 0.7554227709770203,
+      "prob_hn": 0.17143656313419342
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1163.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.37049755454063416,
+      "prob_base": 0.6620354652404785,
+      "prob_hn": 0.078959621489048
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1164.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.389474093914032,
+      "prob_base": 0.7495706081390381,
+      "prob_hn": 0.029377607628703117
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1165.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3727191388607025,
+      "prob_base": 0.6704707145690918,
+      "prob_hn": 0.07496754825115204
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1166.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3872372806072235,
+      "prob_base": 0.7560407519340515,
+      "prob_hn": 0.018433788791298866
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1170.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.44065988063812256,
+      "prob_base": 0.7372151017189026,
+      "prob_hn": 0.14410468935966492
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1173.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.42920660972595215,
+      "prob_base": 0.6397278308868408,
+      "prob_hn": 0.21868537366390228
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1174.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.40988171100616455,
+      "prob_base": 0.5310778021812439,
+      "prob_hn": 0.2886856496334076
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1175.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.45281460881233215,
+      "prob_base": 0.5845044851303101,
+      "prob_hn": 0.32112473249435425
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1176.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.37330594658851624,
+      "prob_base": 0.5324848294258118,
+      "prob_hn": 0.2141270786523819
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1180.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4704410433769226,
+      "prob_base": 0.7696940898895264,
+      "prob_hn": 0.17118801176548004
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1181.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4435652792453766,
+      "prob_base": 0.739115834236145,
+      "prob_hn": 0.14801473915576935
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1189.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3521896302700043,
+      "prob_base": 0.6660608053207397,
+      "prob_hn": 0.03831843286752701
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1196.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3666914701461792,
+      "prob_base": 0.6992421746253967,
+      "prob_hn": 0.03414078801870346
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1197.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4522116184234619,
+      "prob_base": 0.6306620240211487,
+      "prob_hn": 0.27376118302345276
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1198.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3671177327632904,
+      "prob_base": 0.5079115033149719,
+      "prob_hn": 0.2263239622116089
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_120.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5313257575035095,
+      "prob_base": 0.7569738626480103,
+      "prob_hn": 0.3056776523590088
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1200.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3967684805393219,
+      "prob_base": 0.6217504143714905,
+      "prob_hn": 0.17178654670715332
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1201.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3973534405231476,
+      "prob_base": 0.6826595664024353,
+      "prob_hn": 0.11204730719327927
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1205.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6492927074432373,
+      "prob_base": 0.6926288604736328,
+      "prob_hn": 0.6059566140174866
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1206.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5387343764305115,
+      "prob_base": 0.687865674495697,
+      "prob_hn": 0.38960304856300354
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1207.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3931090235710144,
+      "prob_base": 0.692111611366272,
+      "prob_hn": 0.09410641342401505
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1208.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4527403712272644,
+      "prob_base": 0.7042877078056335,
+      "prob_hn": 0.20119301974773407
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_121.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4445832669734955,
+      "prob_base": 0.7007555961608887,
+      "prob_hn": 0.1884109526872635
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1210.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.549298107624054,
+      "prob_base": 0.711216151714325,
+      "prob_hn": 0.38738003373146057
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1212.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5547434687614441,
+      "prob_base": 0.7275274395942688,
+      "prob_hn": 0.3819595277309418
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1213.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.399118036031723,
+      "prob_base": 0.761033296585083,
+      "prob_hn": 0.037202756851911545
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1215.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6274313926696777,
+      "prob_base": 0.7499202489852905,
+      "prob_hn": 0.5049425363540649
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1216.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4326050877571106,
+      "prob_base": 0.6871271133422852,
+      "prob_hn": 0.17808303236961365
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1218.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.37308937311172485,
+      "prob_base": 0.6564265489578247,
+      "prob_hn": 0.0897522047162056
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_122.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4010566771030426,
+      "prob_base": 0.5523514151573181,
+      "prob_hn": 0.24976195394992828
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1223.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3540748357772827,
+      "prob_base": 0.5948857069015503,
+      "prob_hn": 0.11326395720243454
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1224.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6224645376205444,
+      "prob_base": 0.7613185048103333,
+      "prob_hn": 0.4836105406284332
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1225.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4350641369819641,
+      "prob_base": 0.6648523211479187,
+      "prob_hn": 0.2052759826183319
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1228.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5187270045280457,
+      "prob_base": 0.8012717962265015,
+      "prob_hn": 0.23618225753307343
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1229.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4932534992694855,
+      "prob_base": 0.6851498484611511,
+      "prob_hn": 0.3013571500778198
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1233.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.38783150911331177,
+      "prob_base": 0.7408850789070129,
+      "prob_hn": 0.03477794677019119
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1238.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4030226171016693,
+      "prob_base": 0.5952222347259521,
+      "prob_hn": 0.21082298457622528
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_124.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.41106319427490234,
+      "prob_base": 0.6739747524261475,
+      "prob_hn": 0.14815166592597961
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1244.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.559783935546875,
+      "prob_base": 0.6200164556503296,
+      "prob_hn": 0.4995514750480652
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1245.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4393746852874756,
+      "prob_base": 0.7209275960922241,
+      "prob_hn": 0.15782175958156586
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1247.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5535089373588562,
+      "prob_base": 0.8332396745681763,
+      "prob_hn": 0.27377820014953613
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1248.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.48299795389175415,
+      "prob_base": 0.8304751515388489,
+      "prob_hn": 0.1355207860469818
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1249.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.41401731967926025,
+      "prob_base": 0.8030904531478882,
+      "prob_hn": 0.02494417317211628
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1252.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.38683417439460754,
+      "prob_base": 0.7373833060264587,
+      "prob_hn": 0.03628502041101456
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1254.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.418217271566391,
+      "prob_base": 0.6878917813301086,
+      "prob_hn": 0.14854277670383453
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1256.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.3992592990398407,
+      "prob_base": 0.7814370393753052,
+      "prob_hn": 0.01708158664405346
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1258.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4691455364227295,
+      "prob_base": 0.7841418385505676,
+      "prob_hn": 0.15414926409721375
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1259.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5235811471939087,
+      "prob_base": 0.8695035576820374,
+      "prob_hn": 0.17765869200229645
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_126.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4439542591571808,
+      "prob_base": 0.8461154103279114,
+      "prob_hn": 0.041793134063482285
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1260.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.48714688420295715,
+      "prob_base": 0.7712070941925049,
+      "prob_hn": 0.20308665931224823
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1264.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.46351921558380127,
+      "prob_base": 0.6032626628875732,
+      "prob_hn": 0.3237757384777069
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1265.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.6254225969314575,
+      "prob_base": 0.6189899444580078,
+      "prob_hn": 0.631855309009552
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1266.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4059392511844635,
+      "prob_base": 0.6780123710632324,
+      "prob_hn": 0.1338661164045334
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1268.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.38614344596862793,
+      "prob_base": 0.5889360904693604,
+      "prob_hn": 0.1833508014678955
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1271.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.41935837268829346,
+      "prob_base": 0.8340141177177429,
+      "prob_hn": 0.0047026127576828
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1275.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.36099785566329956,
+      "prob_base": 0.6177734732627869,
+      "prob_hn": 0.10422225296497345
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1276.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4945272207260132,
+      "prob_base": 0.5372377634048462,
+      "prob_hn": 0.4518166780471802
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_1279.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.5720191597938538,
+      "prob_base": 0.6617177128791809,
+      "prob_hn": 0.4823205769062042
+    },
+    {
+      "path": "/Users/maheshboda/.cache/kagglehub/datasets/manjilkarki/deepfake-and-real-images/versions/1/Dataset/Test/Fake/fake_128.jpg",
+      "label": 1,
+      "label_name": "Fake",
+      "prob_ens": 0.4238208830356598,
+      "prob_base": 0.6973571181297302,
+      "prob_hn": 0.15028464794158936
+    }
+  ],
+  "Test_boundary": {
+    "ambiguous_band": [
+      0.35,
+      0.65
+    ],
+    "fake_ambiguous": 2033,
+    "fake_total": 5492,
+    "real_ambiguous": 1153,
+    "real_total": 5413,
+    "overlap": 0.5115558643383541
+  }
+}

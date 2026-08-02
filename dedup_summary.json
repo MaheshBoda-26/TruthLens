@@ -1,0 +1,33 @@
+{
+  "pairs_loaded": 13390,
+  "edges_used": 18724,
+  "components_spanning_splits": 10473,
+  "files_quarantined": 12355,
+  "errors": 0,
+  "by_split_class": {
+    "Train/Fake": {
+      "removed": 2521,
+      "total": 70001
+    },
+    "Train/Real": {
+      "removed": 8157,
+      "total": 70001
+    },
+    "Validation/Fake": {
+      "removed": 1254,
+      "total": 19641
+    },
+    "Validation/Real": {
+      "removed": 294,
+      "total": 19787
+    },
+    "Test/Fake": {
+      "removed": 87,
+      "total": 5492
+    },
+    "Test/Real": {
+      "removed": 42,
+      "total": 5413
+    }
+  }
+}
