@@ -139,7 +139,7 @@ export function Navigation() {
                 <a href="https://www.linkedin.com/in/maheshboda/" className="text-gray-400 hover:text-accent transition-colors" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="https://x.com/MaheshBoda26" className="text-gray-400 hover:text-accent transition-colors" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/Mah_i2603" className="text-gray-400 hover:text-accent transition-colors" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
                   <Twitter className="w-6 h-6" />
                 </a>
               </div>

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Mail, ArrowRight } from 'lucide-react';
+import { Github, Linkedin, Twitter, ArrowRight } from 'lucide-react';
 
 const socialLinks = [
   { href: 'https://github.com/MaheshBoda-26', icon: Github, label: 'GitHub', ariaLabel: 'GitHub' },
   { href: 'https://www.linkedin.com/in/maheshboda/', icon: Linkedin, label: 'LinkedIn', ariaLabel: 'LinkedIn' },
-  { href: '#', icon: Mail, label: 'Email', ariaLabel: 'Email' },
+  { href: 'https://x.com/Mah_i2603', icon: Twitter, label: 'Twitter', ariaLabel: 'Twitter' },
 ];
 
 const footerLinks = {

@@ -7,7 +7,7 @@ const team = [
     name: 'Mahesh Boda',
     role: 'Founder & Lead Developer',
     bio: 'Full-stack engineer specializing in AI/ML applications and forensic technology. Passionate about digital truth and open-source security.',
-    socials: { github: 'https://github.com/MaheshBoda-26', linkedin: 'https://www.linkedin.com/in/maheshboda/', twitter: 'https://x.com/MaheshBoda26' },
+    socials: { github: 'https://github.com/MaheshBoda-26', linkedin: 'https://www.linkedin.com/in/maheshboda/', twitter: 'https://x.com/Mah_i2603' },
   },
 ];
 
@@ -324,7 +324,7 @@ export function About() {
             </h2>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="flex justify-center">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -334,10 +334,12 @@ export function About() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="p-6 bg-surface border border-border-dim rounded-2xl hover:border-accent/30 transition-all duration-500 text-center"
               >
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gradient-to-br from-accent/20 to-purple-500/20 border border-accent/30 flex items-center justify-center">
-                  <span className="font-mono text-3xl font-bold text-accent">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
+                <div className="w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden bg-gradient-to-br from-accent/20 to-purple-500/20 border border-accent/30 flex items-center justify-center">
+                  <img
+                    src="/mahesh-profile.png"
+                    alt="Mahesh Boda"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="font-mono text-xl font-bold text-white mb-1">{member.name}</h3>
                 <p className="font-sans text-sm text-accent mb-4">{member.role}</p>
